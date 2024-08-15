@@ -35,19 +35,10 @@ declare global {
         interface Browser {
             getElement: (selector: string) => Promise<WebdriverIO.Element>;
             getAllElements: (selector: string) => Promise<WebdriverIO.Element>;
-            getRelativeUrl(): Promise<string>;
             getTextOfElement: (selector: string) => Promise<string>;
-            login(username: string, password: string): Promise<void>;
             verifyIfElementIsDisplayed: (selector: string) => Promise<boolean>;
+            getRelativeUrl(): Promise<string>;
+            login(username: string, password: string): Promise<void>;
         }
-    }
-}
-// environment.d.ts
-
-declare namespace NodeJS {
-    interface ProcessEnv {
-        USERNAME: string;
-        PASSWORD: string;
-        // Add other environment variables here
     }
 }

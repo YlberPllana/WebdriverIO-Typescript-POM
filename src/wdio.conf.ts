@@ -36,7 +36,6 @@ export const config: WebdriverIO.Config = {
     //
     specs: [
         './tests/specs/**/*.ts'
-        // './tests/specs/logout.spec.ts'
     ],
     // Patterns to exclude.
     exclude: [
