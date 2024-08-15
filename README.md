@@ -26,7 +26,7 @@ Make sure you have configured right your git account and you have the following 
  cd src
  ```
 ## WebdriverIO Configuration
-* Create a file named .env in the root directory of the project. Replace "your_swag_labs_username" and "your_swag_labs_password" with your actual credentials for the Swag Labs website.
+* Create a file named .env in the root directory of the project(inside src folder). Replace "your_swag_labs_username" and "your_swag_labs_password" with your actual credentials for the Swag Labs website.
  ```bash
 {
     "USERNAME": "your_swag_labs_username",
