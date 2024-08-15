@@ -1,0 +1,7 @@
+# Installation files
+node_modules
+# Output files
+allure-report
+allure-results
+# Node env variables
+.env
